@@ -1,0 +1,45 @@
+@media  (max-width: 1380px) {
+    .menu-btn {
+        display: none;
+    }
+    .services-content .card{
+        margin: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .menu-btn {
+        display: block;
+    }
+    .nav-right ul{
+        display: none;
+    }
+
+/* about section */
+    .about-content{
+        display: block;
+    }
+    .about-content-left{
+        width: 100%;
+    }
+    .about-content-right{
+        width: 100%;
+        margin-top: 20px;
+
+    }
+/*    my skills */
+    .skills-content{
+        display: block;
+    }
+    .skills-content-left{
+        width: 100%;
+    }
+    .skills-content-right{
+        width: 100%;
+        margin-top: 20px;
+    }
+    /* My services*/
+    .services-content .card{
+        margin-bottom: 50px;
+    }
+}
